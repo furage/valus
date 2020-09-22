@@ -9,7 +9,7 @@ jQuery.noConflict();
     $('<link>').attr({
         type: 'text/css',
         rel: 'stylesheet',
-        href: 'https://yaju1919.github.io/livedoor/valus/csshake.min.v2.css'
+        href: 'https://furage.github.io/valus/csshake.min.v2.css'
     }).appendTo('head');
     function rnd(a){
         return a[Math.floor(Math.random() * a.length)];
@@ -24,7 +24,7 @@ jQuery.noConflict();
         setTimeout(function() {
             $('html').addClass(rnd(["shake", "shake-slow", "shake-little", "shake-vertical"]));
             $(".main-container").add($(".article-body-outer")).css('background', '#FFCCCC');
-            $.getScript('https://yaju1919.github.io/livedoor/valus/bomb.v3.js');
+            $.getScript('https://furage.github.io/valus/bomb.v3.js');
         }, 2500);
     }
     var elmY, elmH, winH, flag;
